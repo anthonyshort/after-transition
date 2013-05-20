@@ -9,7 +9,16 @@
 
 ## API
 
-   
+    var afterTransition = require('after-transition');
+
+    afterTransition(el, function(){
+      // Do things when the transition has finished
+      // This will fire immediately for IE
+    });
+
+    afterTransition.once(el, function(){
+      // Same as above but will only fire once
+    });
 
 ## License
 
