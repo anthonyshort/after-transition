@@ -1,7 +1,8 @@
 
 # after-transition
 
-  Fire a callback after a transition or immediately if the browser does not support transitions
+  Fire a callback after a transition or immediately if the browser does not support transitions.
+  If the element does not have a transition property it will also fire immediately.
 
 ## Installation
 

@@ -2,10 +2,10 @@
   "name": "after-transition",
   "repo": "anthonyshort/after-transition",
   "description": "Fire a callback after a transition or immediately if the browser does not support transitions",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "keywords": [],
   "dependencies": {
-    "anthonyshort/has-transitions": "*",
+    "anthonyshort/has-transitions": "0.1.0",
     "ecarter/css-emitter": "*"
   },
   "development": {},

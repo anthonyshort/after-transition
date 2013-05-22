@@ -2,10 +2,10 @@ var hasTransitions = require('has-transitions');
 var emitter = require('css-emitter');
 
 function afterTransition(el, callback) {
-  if(!hasTransitions) {
-    return callback.apply(el);
+  if(hasTransitions(el)) {
+    return emitter(el).bind(callback);
   }
-  emitter(el).bind(callback);
+  return callback.apply(el);
 };
 
 afterTransition.once = function(el, callback) {
