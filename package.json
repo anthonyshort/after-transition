@@ -1,0 +1,30 @@
+{
+  "name": "after-transition",
+  "version": "0.0.4",
+  "description": "Fire a callback after a transition or immediately if the browser does not support transitions",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anthonyshort/after-transition.git"
+  },
+  "keywords": [
+    "component",
+    "browserify",
+    "css",
+    "transition"
+  ],
+  "author": "Anthony Short",
+  "license": "BSD",
+  "readmeFilename": "Readme.md",
+  "gitHead": "155a8ab7fa7e557ee0bcddebd14e937c0608f9c2",
+  "browser": {
+    "css-emitter": "css-emitter-component"
+  },
+  "dependencies": {
+    "css-emitter-component": "~0.1.1",
+    "has-transitions": "~0.3.0"
+  }
+}

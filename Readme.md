@@ -8,6 +8,10 @@
 
     $ component install anthonyshort/after-transition
 
+or via npm for use with Browserify
+
+    $ npm install after-transition
+
 ## API
 
     var afterTransition = require('after-transition');
